@@ -1,0 +1,208 @@
+.Spider-man {
+    position: relative;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    z-index: 1000;
+    transform: translate(-50%, -450%);
+
+}
+.logo2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    z-index: 1000;
+    transform: translate(-50%, 40%);
+
+}
+
+.bar {
+    position: relative;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    padding-top: 0%;
+    padding: 10px 10px 70px 100px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+}
+.bar2 {
+    position: relative;
+    padding: 10px 10px 70px 100px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    margin-top:  10%;
+}
+
+.spiderlogo {
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+    max-width: 120px;
+    min-width: 120px;
+    height: 100px;
+}
+
+.content {
+    align-items: center;
+    color: white;
+    padding-top: 90px;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    gap: 90px;
+    margin-bottom: 200px;
+}
+
+.contentspidermangame {
+    max-width: 500px;
+    min-width: 250px;
+    min-height: 250px;
+    box-shadow: 0 4px 6px rgba(255, 6, 6, 1);
+    border-radius: 10px
+}
+
+.contenttext {
+    max-width: 900px;
+    min-width: 500px;
+    text-align: left;
+
+}
+
+.contenttext h1 {
+    padding-top: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tom {
+    padding-top: 100px;
+
+}
+
+.spiderbg {
+    position: relative;
+}
+
+.row2 {
+    margin-top: 90px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-90%, -10%);
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+
+.tomhomland {
+    position: absolute;
+    max-width: max-content;
+    max-height: max-content;
+    min-width: 250px;
+    transform: translate(90%, -42%);
+}
+
+.tommovie{
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    object-fit: cover;
+    transform: translate(50%, -30%);
+}
+
+.tommovie:hover {
+    transform: scale(1.2);
+    transform: translate(50%, -50%);
+}
+
+.andrew{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+.andrewgarfield{
+    position: absolute;
+    max-width:600px;
+    max-height: 600px;
+    min-width: 250px;
+    transform: translate(-100%, -29%);
+    display: flex;
+    align-items: flex-start;
+}
+
+.row3{
+    margin-top: 90px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-10%, -10%);
+    text-align: left;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+
+.andrewmovie{
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    object-fit: cover;
+    transform: translate(50%, -30%);
+    border-radius: 10px;
+}
+
+.andrewmovie:hover {
+    transform: scale(1.2);
+    transform: translate(50%, -50%);
+}
+
+.toby{
+    margin-top: 200px;
+}
+
+.tobymaguire{
+    position: absolute;
+    max-width:500px;
+    max-height: 500px;
+    min-width: 250px;
+    transform: translate(150%, -27%);
+}
+
+.tobymovie{
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+    width: 250px;
+    object-fit: cover;
+    transform: translate(20%, -30%);
+    border-radius: 10px;
+}
+
+.tobymovie:hover{
+    transform: scale(1.2);
+    transform: translate(20%, -50%);
+}
